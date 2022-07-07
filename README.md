@@ -64,3 +64,11 @@ Son funciones dentro de nuestra clase
 	console.log({ myDate: myDate.printFormat() })
 	myDate.add(10, 'days')
 	console.log({ myDate: myDate.printFormat() })
+
+## Acceso Publico
+
+Tanto nuestros metodos como nuestras propiedades son publicas si no se le indica
+
+lo contrario, esto quiere decir que pueden ser alterados por fuera de la clase.
+
+
